@@ -29,27 +29,7 @@ export default function Footer() {
               Securing checkout pathways for WooCommerce. Preventing payment card testing attacks, disposable numbers, and botnet spams with modern real-time IP telemetry.
             </p>
             
-            {/* Social handles */}
-            <div className="flex items-center space-x-4 pt-2">
-              <a 
-                href="https://github.com" 
-                target="_blank" 
-                rel="noreferrer"
-                className="p-1.5 rounded bg-[#121B2B] hover:bg-white/[0.05] border border-white/5 text-muted hover:text-white transition-colors"
-                title="GitHub Repo"
-              >
-                {/* <Github className="w-4 h-4" /> */}
-              </a>
-              <a 
-                href="https://m.me/ordershield.wp" 
-                target="_blank" 
-                rel="noreferrer"
-                className="p-1.5 rounded bg-[#121B2B] hover:bg-white/[0.05] border border-white/5 text-muted hover:text-white transition-colors"
-                title="Facebook Support Chat"
-              >
-                <MessageSquare className="w-4 h-4" />
-              </a>
-            </div>
+            
           </div>
 
           {/* Navigation Links (3 cols of inner menu) */}
