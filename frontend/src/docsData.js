@@ -48,7 +48,7 @@ Ensure your host satisfies these security and server parameters to prevent permi
 ## Step-by-Step Installation
 
 ### Method A: WordPress Admin Dashboard Upload
-1. Download the plugin archive (\`order-shield-security-v1.4.2.zip\`) from your dashboard.
+1. Download the plugin archive (\`order-shield-security-v1.0.0.zip\`) from your dashboard.
 2. Log into your WordPress site admin panel (\`/wp-admin\`).
 3. Navigate to **Plugins > Add New**.
 4. Click the **Upload Plugin** button at the top of the screen.
