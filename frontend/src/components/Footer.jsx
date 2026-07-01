@@ -1,4 +1,5 @@
 import { Shield, MessageSquare, ShieldAlert } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -40,7 +41,6 @@ export default function Footer() {
               <span className="text-[10px] font-mono font-bold text-white uppercase tracking-wider">Product Scope</span>
               <ul className="space-y-2 text-xs font-sans font-medium text-paragraph">
                 <li><a href="#features" className="hover:text-white transition-colors">Features Grid</a></li>
-                <li><a href="#dashboard-demo" className="hover:text-white transition-colors">Live Demo Sandbox</a></li>
                 <li><a href="#how-it-works" className="hover:text-white transition-colors">How It Works</a></li>
                 <li><a href="#admin-controls" className="hover:text-white transition-colors">Admin Settings</a></li>
               </ul>
@@ -74,11 +74,12 @@ export default function Footer() {
         {/* Bottom line: Copyright, License statement */}
         <div className="pt-8 border-t border-white/[0.04] flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono text-muted">
           <span>
-            © {currentYear} Order Shield. Released under the GPLv3 Open Source License.
+            © {currentYear} <span className="text-accent-primary">Order Shield.</span> Released under the GPLv3 Open Source License.
           </span>
           <div className="flex items-center space-x-1">
             <ShieldAlert className="w-3.5 h-3.5 text-accent-primary" />
-            <span>Premium Web checkout security. Built with pride for WooCommerce.</span>
+            <span>Premium Web checkout security.  Built by <a href="http://shahinme.vercel.app" className="text-accent-primary">Md Shahin.</a></span>
+            
           </div>
         </div>
 

@@ -91,7 +91,7 @@ export const FAQ_DATA = [
   },
   {
     question: 'What happens when a legitimate customer is blocked accidentally?',
-    answer: 'In the rare event a genuine order is flagged, you have full control. You can customize the user-facing warning popup, log their action in detail, and even display a direct link to your customer service (e.g., your Facebook Messenger support URL). Additionally, you can whitelist their IP or email address with a single click inside the admin dashboard to prevent future flags.'
+    answer: 'In the rare event a genuine order is flagged, you have full control. You can customize the user-facing warning popup, log their action in detail, and even display a direct link to your customer service (e.g., your Facebook Messenger support URL). Additionally, you can whitelist their IP or billing phone no with a single click inside the admin dashboard to prevent future flags.'
   },
   {
     question: 'Can I export my blocklists and logs?',
@@ -160,23 +160,23 @@ export const FEATURES_DATA = [
   },
   {
     title: 'Restriction Window',
-    description: 'Prevent high-frequency card testing and spam floods by establishing temporal block periods for rapid purchase attempts.',
+    description: 'Prevent high-frequency spam floods by establishing temporal block periods for rapid purchase attempts.',
     icon: 'Clock',
     badge: 'Most Popular'
   },
   {
     title: 'Allowed Attempts Controller',
-    description: 'Limit the maximum checkout actions allowed per user, IP, or card profile. Instantly flag and restrict users who hit the ceiling.',
+    description: 'Limit the maximum checkout actions allowed per user, IP, and profile. Instantly flag and restrict users who hit the ceiling.',
     icon: 'Sliders'
   },
   {
     title: 'Smart Whitelist',
-    description: 'Keep your VIP buyers moving. Whitelist reliable IPs, customer emails, or domains so they never trigger security alerts.',
+    description: 'Keep your VIP buyers moving. Whitelist reliable IPs, customer billing phone no, so they never trigger security alerts.',
     icon: 'ShieldCheck'
   },
   {
     title: 'Comprehensive Blocklist',
-    description: 'Instantly lock out malicious actors. Block specific IPs, exact email addresses, subnets, domains, and phone numbers in seconds.',
+    description: 'Instantly lock out malicious actors. Block specific IPs, subnets, and phone numbers in seconds.',
     icon: 'ShieldAlert'
   },
   {

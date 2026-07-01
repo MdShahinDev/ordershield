@@ -73,8 +73,8 @@ export default function Hero() {
             className="font-sans font-medium text-sm text-paragraph leading-relaxed max-w-2xl"
           >
             Order Shield wraps your WooCommerce checkout in an advanced, real-time security barrier. 
-            Leveraging machine-learning IP intelligence, high-accuracy billing phone validation, custom 
-            restriction windows, and bulletproof blocklists to block scammers, bots, and card testers instantly.
+            high-accuracy billing phone validation, IP Checking, custom 
+            restriction windows, and bulletproof blocklists to block scammers, bots instantly.
           </motion.p>
 
           {/* CTAs */}
@@ -110,10 +110,10 @@ export default function Hero() {
               {[...Array(5)].map((_, i) => (
                 <Star key={i} className="w-4 h-4 text-accent-primary fill-accent-primary" />
               ))}
-              <span className="text-white text-xs font-bold ml-2 font-mono">5.0 Star Rated</span>
+              <span className="text-white text-xs font-bold ml-2 font-mono">4.9 Star Rated</span>
             </div>
             <div className="text-xs text-muted font-sans font-medium">
-              Trusted by <span className="text-white font-semibold">12,000+</span> WooCommerce Store Owners worldwide
+              Trusted by <span className="text-white font-semibold">5+</span> WooCommerce Store Owners worldwide
             </div>
           </motion.div>
         </div>
@@ -229,7 +229,7 @@ export default function Hero() {
               </div>
               <div className="flex-1 min-w-0">
                 <span className="text-[10px] font-mono text-success block font-bold">TRUSTED BUYER</span>
-                <span className="text-xs font-semibold text-white truncate block">agency-partner@company.com</span>
+                <span className="text-xs font-semibold text-white truncate block">Deshi Shutki</span>
               </div>
             </div>
           </motion.div>
